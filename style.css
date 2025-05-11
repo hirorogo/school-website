@@ -3,8 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-.logo{
-    width: 40px;
+.logo img{
+    width: 50%;
     height: auto; /* アスペクト比を維持 */
 
 }
