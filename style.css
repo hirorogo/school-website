@@ -29,3 +29,9 @@ header{
 
     
 }
+.main_contents img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
