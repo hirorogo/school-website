@@ -34,3 +34,9 @@ header{
     height:auto;
     object-fit: cover;
 }
+.main_picture{
+    position: absolute
+}
+.main_contents{
+    position: relative;
+}
