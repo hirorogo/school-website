@@ -9,7 +9,6 @@
 
 }
 
-
 header{
     background-color: #FFFF73;
     display: flex;
@@ -43,5 +42,4 @@ header{
     left: 50%;
     background-color: rgba(240, 248, 255, 0.647);
     translate: -50% -50%;
-
 }
