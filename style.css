@@ -48,3 +48,9 @@ header{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.news{
+    text-align: center;
+    text-decoration:underline;
+    text-decoration-color: gray;
+     text-decoration-thickness: 4px; 
+}
