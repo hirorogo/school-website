@@ -48,11 +48,9 @@ header{
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.news_title{
+.news{
     display: flex;
-    margin:1% 1%;
-
 }
-.saishinjouhou{
-    display:flex:;
+.saishinjouhou p{
+    margin:1% 1%
 }
