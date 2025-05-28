@@ -48,9 +48,36 @@ header{
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.news{
+.news_title{
     display: flex;
+    align-items: center;
+}
+.news_title h1{
+    margin-right: 20px;
+}
+.news_title p{
+    border: solid 1px #000;
+    border-radius: 20px;
+    padding: 0 10px 0 10px;
 }
 .saishinjouhou p{
     margin:1% 1%
+}
+.news{
+    margin:auto;
+    margin-top:5%;
+    margin-bottom:10%;
+    width: 80%;
+}
+.news_contents{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.news_block{
+    width: 23%;
+}
+.news_block img{
+    width: 100%;
+    margin: 10%;
 }
