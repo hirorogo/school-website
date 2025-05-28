@@ -69,15 +69,18 @@ header{
     margin-bottom:10%;
     width: 80%;
 }
-.news_contents{
+.news_contents {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.news_block{
+
+.news_block {
     width: 23%;
+    margin: 0; 
 }
-.news_block img{
+
+.news_block img {
     width: 100%;
-    margin: 10%;
+    height: auto;
 }
