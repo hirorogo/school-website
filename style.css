@@ -65,10 +65,10 @@ header{
     margin:1% 1%
 }
 .news{
+    width: 80%;
     margin:auto;
     margin-top:5%;
     margin-bottom:10%;
-    width: 80%;
 }
 .news_contents {
     display: flex;
