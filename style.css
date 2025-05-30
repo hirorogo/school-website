@@ -85,3 +85,20 @@ header{
     width: 100%;
     height: auto;
 }
+.news_block .shou {
+    margin-top: 16px; 
+}
+.dai {
+    
+    font-weight:bold    
+}
+.new{
+     border: solid 1px #000;
+    border-radius: 20px;
+    padding: 0 10px 0 10px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 30%;
+  display: flex;
+  justify-content: center;
+}
