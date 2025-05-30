@@ -93,12 +93,20 @@ header{
     font-weight:bold    
 }
 .new{
+    display:block;
      border: solid 1px #000;
     border-radius: 20px;
     padding: 0 10px 0 10px;
+    margin:auto;
+    text-align: center;
     margin-top: 10%;
     margin-bottom: 10%;
     width: 30%;
-  display: flex;
-  justify-content: center;
+}
+.content{
+    background-color:#EDFDEE;
+}
+.content_title{
+    display: flex;
+    align-items: center;
 }
