@@ -17,10 +17,6 @@ header {
     align-items: center;
     width: 100%;
     justify-content: space-between;
-}
-
-.header_contents  {
-
     list-style: none;
     padding-top: 40px;
     font-size: 20px;
@@ -28,7 +24,11 @@ header {
     margin: 0;
     padding-right: 20px;
     justify-content: space-between;
+    font-size-adjust: 10px;
 }
+
+
+
 
 .a {
     width: 100%;
@@ -122,6 +122,7 @@ header {
 
 .con {
     background-color: #EDFDEE;
+    padding-bottom: 5%;
 }
 
 .content {
@@ -134,10 +135,20 @@ header {
     display: flex;
     align-items: center;
     border-bottom: solid 1px #000;
+    justify-content: left;
+
+}
+
+.content_title p {
+    display: block;
+    border: solid 1px #000;
+    border-radius: 20px;
+    padding: 4px;
+    margin-left: 3px;
 }
 
 .oyayouso {
-    margin-top: 3%;
+    margin-top: 4%;
     display: flex;
     justify-content: space-around;
 }
@@ -159,21 +170,39 @@ header {
 
 .shashin_2 img {
     width: 100%;
-    
+
 }
-.inline{
+
+.inline {
     background-color: rgba(255, 255, 0, 0.744);
-    position:absolute;
+    position: absolute;
     translate: 50% 50%;
-    padding:5% 20% 5% 10%;
-    top: 50% ;
+    padding: 5% 20% 5% 10%;
+    top: 50%;
     left: 30%;
 }
-.inline2{
-   background-color: rgba(255, 255, 0, 0.744);
-    position:absolute;
+
+.inline2 {
+    background-color: rgba(255, 255, 0, 0.744);
+    position: absolute;
     translate: 50% 50%;
-    padding:5% 20% 5% 10%;
-    top: 50% ;
+    padding: 5% 20% 5% 10%;
+    top: 50%;
     left: 30%;
+}
+
+.access_title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.access_title h1 {
+    margin-right: 20px;
+}
+
+.access_title p {
+    border: solid 1px #000;
+    border-radius: 20px;
+    padding: 0 10px 0 10px;
 }
