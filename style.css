@@ -206,3 +206,28 @@ header {
     border-radius: 20px;
     padding: 0 10px 0 10px;
 }
+.access {
+    padding: 40px 20px;
+    border-bottom:black ;
+}
+.access_title h1 {
+     border-bottom:black ;
+}
+.access iframe {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+footer{
+    background-color: black;
+
+}
+footer{
+    color: white;
+    padding-bottom: 10px; 
+    text-align: center;
+}
