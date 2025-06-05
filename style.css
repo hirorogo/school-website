@@ -195,6 +195,8 @@ header {
     display: flex;
     align-items: center;
     margin-bottom: 16px;
+        border-bottom:black solid 1px ;
+
 }
 
 .access_title h1 {
@@ -208,10 +210,11 @@ header {
 }
 .access {
     padding: 40px 20px;
-    border-bottom:black ;
+    
+
 }
 .access_title h1 {
-     border-bottom:black ;
+
 }
 .access iframe {
     width: 100%;
